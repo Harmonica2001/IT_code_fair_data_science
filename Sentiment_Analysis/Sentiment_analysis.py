@@ -46,13 +46,13 @@ def process_reviews(input_folder, output_folder):
                 print(f"'Review' or 'Stars' column not found in {filename}")
 
 # Specify input and output folders
-input_folder = r'C:\Personal\Masters\Masters_work\Study\Y1_S1\IT_code_fair\Data_science_challenge\National_parks\Raw_Reviews'  # Change this to your input folder path
-output_folder = r'C:\Personal\Masters\Masters_work\Study\Y1_S1\IT_code_fair\Data_science_challenge\National_parks\Sentiment_analysis'  # Change this to your output folder path
+input_folder = r'C:\Users\User\Documents\Code Fair Data Science\Github_Clone\IT_code_fair_data_science\Sentiment_Analysis\Pre_Sentiment'  # Change this to your input folder path
+output_folder = r'C:\Users\User\Documents\Code Fair Data Science\Github_Clone\IT_code_fair_data_science\Sentiment_Analysis\Post_Sentiment'  # Change this to your output folder path
 
 # Run the processing function
 process_reviews(input_folder, output_folder)
 
 
-# df = pd.read_csv(r'C:\Personal\Masters\Masters_work\Study\Y1_S1\IT_code_fair\Data_science_challenge\National_parks\Sentiment_analysis\Charles_Darwin_University_Park_dataset_Google-Maps-Reviews-Scraper_2025-09-21_15-21-49-583.csv')
-# df_slice = df[['text', 'stars', 'Emotion']]
-# # %%
+df = pd.read_csv(r'C:\Users\User\Documents\Code Fair Data Science\Github_Clone\IT_code_fair_data_science\Sentiment_Analysis\Post_Sentiment\DeckCin_scraped.csv')
+df_slice = df[['text', 'stars', 'Emotion']]
+# %%
