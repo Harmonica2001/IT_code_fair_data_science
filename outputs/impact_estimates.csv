@@ -1,0 +1,5 @@
+topic_id,review_count,avg_sentiment,assumed_sentiment_delta,projected_visitation_uplift_%
+0,141,0.7483028492606278,0.1,4.0
+3,161,0.8900278227299637,0.1,4.0
+4,95,0.9783314573137384,0.1,4.0
+2,397,0.9837605520820136,0.1,4.0
